@@ -6,7 +6,9 @@ def findTargets(target, numarray):
                 return (i,j)
 
 
-
+def anylizeprogram(programfile):
+    f = open("demofile.txt", "r")
+        
 
 
 def main():
