@@ -1,3 +1,5 @@
+from re import search
+
 
 def findTargets(target_int, numarray_list_int):
     for i in range(0, len(numarray_list_int)-1):
@@ -31,7 +33,13 @@ def main():
     
 def eml(lineToAnylize):
     #define common rules
-    pass
+    #return a then return [0]
+    #range(a1; a2) then range(a1 + 1; a2)
+    #a0 == a1 then False
+    for word in lineToAnylize:
+
+
+            
 
 
 if __name__ == "__main__":
