@@ -19,24 +19,26 @@ def anylizeprogram(programfile):
             feedback.append((eml(holder),i))
         i+=1
     return feedback
-        
+
+#apply eml rules to create mypy lang        
 def convert_To_Mpy(program):
     f = open("myPyFile.txt","w")
+    for line in program:
+        f.write(eml(line))
 
-    pass
 
 def main():
     tartget = 42
     numbers = [3,7,21,9,18,22,36,6]
     print(findTargets(tartget,numbers))
     
-    
+#eml rules applied to each line    
 def eml(lineToAnylize):
     #define common rules
-    #return a then return [0]
-    #range(a1; a2) then range(a1 + 1; a2)
-    #a0 == a1 then False
+    # range(a1; a2) then range(a1 + 1; a2)
+    # a0 == a1 then False
     for word in lineToAnylize:
+        pass
 
 
             
