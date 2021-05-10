@@ -6,7 +6,7 @@ def findTargets(target_int, numarray_list_int):
                 tuple_end = (i,j)
                 return tuple_end
 
-
+#delapidated to use convert_to_Mpy and overwrite this if we can get sketch 
 def anylizeprogram(programfile):
     f = open("demofile.txt", "r")
     feedback= []
@@ -18,7 +18,10 @@ def anylizeprogram(programfile):
         i+=1
     return feedback
         
+def convert_To_Mpy(program):
+    f = open("myPyFile.txt","w")
 
+    pass
 
 def main():
     tartget = 42
