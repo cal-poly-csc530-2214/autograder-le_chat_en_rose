@@ -1,0 +1,5 @@
+def findTargets(target, numarray):
+    for i in range(0, len(numarray)):
+        for j in range(i,len(numarray)):
+            if (numarray[i]+numarray[j]) == target_int :
+                return(i,j)
