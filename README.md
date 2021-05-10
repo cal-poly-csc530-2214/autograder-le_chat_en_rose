@@ -11,3 +11,6 @@ starting off with the project we created our base anwser in which to make compar
 After createing our base program in which to start the testing with we followed the guidelines set fort from the paper to create an eml list to take the python and eml and make an mypy program. The error cases that we are looking at is indexing of the arrays as well as the comparisons dictated in the paper. This proved to be much harder than anticipated first starting with reg expression but also looking at s expression matching to add in the needed clauses for the mypy language. we decided to go with the inbuilt string matching feature which may not be as robust but can be evolved later to acccepte other more poorly written programs. 
 
 **Takeaways**
+The inital error language and program converter is what intersted us the most for this progam and this where we wanted to spend most of our time trying to implement. We both tried to get Sketch to work on our computers but ran into some problems setting it up. The sketch piece would be a good point to jump into converting the mypy that we created into somethign that sketch could then solve. Another way to improve the mypy converter that we created is the ability to dynamically add in the rules and create custom mypy code snippets that can be used to covert all python code to the mypy template.
+
+
